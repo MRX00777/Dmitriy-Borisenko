@@ -604,6 +604,22 @@ section{
     }
 }
 
+
+
+.tools ul,
+.skills ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style-type: "※ "
+}
+
+.tools ul li::marker,
+.skills ul li::marker{
+    color: #0ef;
+    font-size: 1.1rem;
+	line-height: 1;
+}
 /* AllSkills End */
 
 
